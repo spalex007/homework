@@ -47,12 +47,12 @@ let savings = false;
 
 // Проверка типа переменных
 
-console.log('Переменная: money - ', typeof(money) ); //string
-console.log('Переменная: time - ', typeof(time) ); //string
-console.log('Переменная: question1 - ', typeof(questionExpenses1) ); //string
-console.log('Переменная: question2 - ', typeof(questionExpenses2) ); //string
-console.log('Переменная: income - ', typeof(income) );
-console.log('Переменная: savings - ', typeof(savings) );
+//console.log('Переменная: question1 - ', typeof(questionExpenses1) ); //string
+//console.log('Переменная: time - ', typeof(time) ); //string
+//console.log('Переменная: question2 - ', typeof(questionExpenses2) ); //string
+//console.log('Переменная: income - ', typeof(income) ); //object
+//console.log('Переменная: savings - ', typeof(savings) ); //boolean
+//console.log('Переменная: money - ', typeof(money) ); //string
 
 // Преобразование в числовой тип
 
@@ -65,3 +65,15 @@ console.log('Переменная: savings - ', typeof(savings) );
 // Расчет бюджета на 1 день
 
 alert("Бюджет на 1 день составляет - " + (money/30) );
+
+
+// Вопросы к заданию
+
+// 1. Сколько типов данных существует в JS?
+
+// 1.1.  number (число)
+// 1.2. string (строка)
+// 1.3. boolean (логический, булево значение)
+// 1.4. null (отсутствует в системе, выдает ошибку)
+// 1.5. indefined (значение не определено)
+// 1.6. object (объект)
